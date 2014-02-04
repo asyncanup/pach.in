@@ -1,0 +1,8 @@
+{
+  "name": "pach.in",
+  "version": "0.0.1",
+  
+  "dependencies": {
+    "apper": "~1.1.3"
+  }
+}
