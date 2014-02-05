@@ -1,17 +1,11 @@
 define(function (require) {
     
     var BaseView = require("slate/view"),
-        log = require("slate/logger")(require("module").id);
+        log = require("slate/logger")(require("module").id),
+        compile = require("slate/templates").compile;
     
     return BaseView.extend({
-        initialize: function (opts) {
-            log("Initialized");
-        },
-        
-        render: function () {
-            log("Rendered");
-            
-            return this;
-        }
+        log: log,
+        template: compile(require("text!templates/screens/home-screen.html"))
     });
 });

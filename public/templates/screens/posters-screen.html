@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="main-title animated fadeInDown">
+        <a href="/#/" class="centered">
+            <img src="img/pach-logo.png" class="about-logo"
+                alt="PACH: Poetry And Cheap Humor" title="Go back to Homepage">
+        </a>
+    </div>
+    
+    <div class="pach-thumbnails centered animated fadeIn">
+        {{#each rows}}
+        <div class="row">
+            {{#each columns}}
+            <div class="col-xs-{{colWidth}} centered">
+                <a data-toggle="lightbox" href="#pach-poster-{{id}}" class="img-thumbnail">
+                    <img src="img/posters/thumb/{{id}}.png" 
+                        class="img-responsive" title="{{title}}" alt="{{name}}">
+                </a>
+                <div id="pach-poster-{{id}}" class="posters lightbox fade"
+                    tabindex="-1" role="dialog" aria-hidden="true">
+                	<div class='lightbox-dialog'>
+        				<div class='lightbox-content'>
+        					<img src="img/posters/full/{{id}}.png">
+        					<div class="lightbox-caption"><p>{{title}}</p></div>
+        				</div>
+        			</div>
+        		</div>
+            </div>
+            {{/each}}
+        </div>
+        <hr>
+        {{/each}}
+    </div>
+    
+    <div class="footer-strip animated fadeInUp">
+        <img class="img-responsive centered" src="img/footers/makkhi-strip.png">
+    </div>
+
+</div>

@@ -7,13 +7,19 @@ define(function (require) {
         // Attach directly to body element
         el: "body",
         
-        initialize: function (opts) {
-            log("Initialized");
-        },
-        
         showScreen: function (screen) {
-            log("Showing screen", screen.el);
-            this.$el.html(screen.render().el);
+            var timeToHide = 0;
+            if (this.showingScreen && this.showingScreen.hide) {
+                timeToHide = this.showingScreen.hide();
+            }
+            
+            setTimeout(function () {
+                log("Showing screen", screen.el);
+                
+                this.$el.html(screen.render().el);
+                this.showingScreen = screen;
+                
+            }.bind(this), timeToHide);
             
             return this;
         }

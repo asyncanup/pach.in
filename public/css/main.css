@@ -1,0 +1,90 @@
+html, body {
+    background-color: #FFFDE7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.big-banner {
+    background-image: url(../img/animals.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 50%;
+}
+
+.top-banner {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.main-menu {
+    margin: 20px auto;
+    max-width: 800px;
+}
+.main-menu > .btn-group {
+    margin: auto;
+    width: 90%;
+}
+.main-menu .menu-item {
+	opacity: 0.9;
+
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	transition: all 250ms ease;
+
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.main-menu .menu-item:hover {
+	opacity: 1;
+
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-o-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+.main-menu .menu-item-odd {
+    background: #D9813C;
+    color: #FDF4E0;
+}
+.main-menu .menu-item-even {
+    background: #F6DA9D;
+    color: #4F2300;
+}
+
+.social-icons {
+    text-align: center;
+}
+.social-icons .icon {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+}
+.social-icons .icon:hover {
+    opacity: 1;
+}
+
+.about-logo {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    margin-top: 20px;
+}
+
+.about-body > p {
+    max-width: 600px;
+    margin: auto;
+}
+.pach-thumbnails {
+    max-width: 900px;
+}
