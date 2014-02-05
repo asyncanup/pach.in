@@ -19,8 +19,17 @@
                     tabindex="-1" role="dialog" aria-hidden="true">
                     <div class='lightbox-dialog'>
         				<div class='lightbox-content'>
-        					<iframe src="http://docs.google.com/viewer?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F1140834%2Fpach%2FPACH%252015%2520Newsletter.pdf&embedded=true" width="600" height="780" style="border: none;"></iframe>
-        					<div class="lightbox-caption"><p>{{title}}</p></div>
+        					<iframe src="{{embedLink}}" width="600" height="780" style="border: none;"></iframe>
+        					<div class="lightbox-caption">
+                                <p>
+                                    {{title}} (
+                                    <a href="{{downloadLink}}"
+                                        target="_blank" style="color: white">
+                                        Download
+                                    </a>
+                                    )
+                                </p>
+                            </div>
         				</div>
         			</div>
         		</div>
