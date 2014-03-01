@@ -1,3 +1,3 @@
-var app = require("apper")(__dirname);
+var app = require("apper")();
 
-app.init() && app.start(process.env.PORT || 3000);
+app.init() && app.start();
