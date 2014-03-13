@@ -5,7 +5,7 @@ define(function (require) {
     
     return BaseView.extend({
         // Attach directly to body element
-        el: "body",
+        el: "body > .content",
         
         showScreen: function (screen) {
             var timeToHide = 0;
@@ -14,8 +14,6 @@ define(function (require) {
             }
             
             setTimeout(function () {
-                log("Showing screen", screen.el);
-                
                 this.$el.html(screen.render().el);
                 this.showingScreen = screen;
                 

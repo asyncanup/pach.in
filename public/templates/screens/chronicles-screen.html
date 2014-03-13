@@ -5,40 +5,35 @@
                 alt="PACH: Poetry And Cheap Humor" title="Go back to Homepage">
         </a>
     </div>
-    <div class="page-header animated fadeIn" style="
-        text-align: center;
-        margin-top: -25px;
-    ">
+    <div class="page-header animated fadeIn">
         <h1>Chronicles</h1>
     </div>
+    
+    <div class="pach-subscribe center-children animated fadeIn">
+        <form name="subscribe" class="subscribe-form">
+            <label>
+                <h4 class="subscribe-label">Subscribe to get PACH Chronicles in your inbox &nbsp; </h4>
+                <input type="email" name="email" placeholder="Enter your email"
+                    class="subscribe-input" required>
+            </label>
+            <input type="submit" class="btn subscribe-submit" value="✔">
+        </form>
+    </div>
+    <hr>
     
     <div class="pach-thumbnails centered animated fadeIn">
         {{#each rows}}
         <div class="row">
             {{#each columns}}
-            <div class="col-xs-4 col-xs-offset-4 center-children">
-                <a data-toggle="lightbox" href="#pach-chronicles-{{id}}" class="img-thumbnail centered">
-                    <img src="img/posters/thumb/{{id}}.png" 
-                        class="img-responsive" title="{{title}}" alt="{{name}}">
+            <div class="col-xs-4 centered pach-thumbnail">
+                <a href="{{download}}" target="_blank" class="pach-link img-thumbnail">
+                    <img src="{{thumb}}" 
+                        class="img-responsive" title="{{title}}" alt="{{title}}">
                 </a>
-                <div id="pach-chronicles-{{id}}" class="lightbox fade center-children"
-                    tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class='lightbox-dialog'>
-        				<div class='lightbox-content'>
-        					<iframe src="{{embedLink}}" width="600" height="780" style="border: none;"></iframe>
-        					<div class="lightbox-caption">
-                                <p>
-                                    {{title}} (
-                                    <a href="{{downloadLink}}"
-                                        target="_blank" style="color: white">
-                                        Download
-                                    </a>
-                                    )
-                                </p>
-                            </div>
-        				</div>
-        			</div>
-        		</div>
+                <div class="pach-caption">
+                    <p class="pach-name">{{name}}</p>
+                    <p class="pach-description">{{description}}</p>
+                </div>
             </div>
             {{/each}}
         </div>

@@ -1,7 +1,27 @@
 define(function (require) {
 
+    var _ = require("slate/utils");
+
     return Backbone.View.extend({
         className: "slate-view",
+        
+        initialize: function (opts) {
+            // first extend
+            _.extend(this, opts);
+            
+            // then look for subscriptions
+            this.initSubscriptions();
+            
+            // then run custom setup
+            this.setup && this.setup(opts);
+        },
+        
+        initSubscriptions: function () {
+            _.each(this.subscriptions, function (sub, description) {
+                this.listenTo(this[sub.obj], sub.event, this[sub.callback]);
+                this.log && this.log("Subscribed to: " + description);
+            }.bind(this));
+        },
         
         hide: function () {
             this.log("Starting to hide");
@@ -27,12 +47,21 @@ define(function (require) {
         },
         
         render: function () {
-            this.beforeRender && this.beforeRender();
+            // If this.beforeRender exists, then it should return true for
+            // rendering to continue
+            var stopRendering;
             
-            this.$el.html(this.template(this.templateData));
-            this.log("Rendered");
+            if (this.beforeRender && (this.beforeRender() === false)) {
+                stopRendering = true;
+            }
             
-            this.afterRender && this.afterRender();
+            if (!stopRendering) {
+                this.$el.html(this.template(this.templateData));
+                this.log("Rendered");
+                
+                this.afterRender && this.afterRender();
+            }
+
             return this;
         }
     });
