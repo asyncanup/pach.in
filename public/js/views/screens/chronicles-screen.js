@@ -3,7 +3,7 @@ define(function (require) {
     var BaseView = require("slate/view"),
         log = require("slate/logger")(require("module").id),
         compile = require("slate/templates").compile,
-        ajax = require("slate/ajax"),
+        _ = require("slate/utils"),
         notify = require("slate/notify");
     
     return BaseView.extend({
