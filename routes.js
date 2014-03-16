@@ -6,13 +6,18 @@ module.exports = function (app) {
     var allMeetResources = ["meets", "posters", "chronicles"],
         allResources = allMeetResources.concat("subscriptions");
     
-    allResources.forEach(function (resource) {
+    allMeetResources.forEach(function (resource) {
         app.get("/" + resource, function (req, res) {
             res.json(data[resource].local);
         });
     });
 
-    app.post("/subscription", function (req, res) {
+    app.get("/subscriptions", function (req, res) {
+        var response = _.pluck(data.subscriptions.local, "email").join(",");
+        res.send(response);
+    });
+
+    app.post("/subscriptions", function (req, res) {
         var subscription = req.query,
             found = _.findWhere(data.subscriptions.local, {
                 email: subscription.email
@@ -22,7 +27,7 @@ module.exports = function (app) {
             data.subscriptions.cloud.push(subscription);
             res.json({
                 success: true,
-                message: "You have subscribed!"
+                message: "You have been subscribed!"
             });
         } else {
             res.json({

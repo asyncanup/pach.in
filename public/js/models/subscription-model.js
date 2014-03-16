@@ -4,7 +4,7 @@ define(function (require) {
     
     return BaseModel.extend({
         url: function () {
-            return "/subscription?email=" + this.get("email");
+            return "/subscriptions?email=" + this.get("email");
         }
     });
 });
