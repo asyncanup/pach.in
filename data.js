@@ -1,7 +1,7 @@
 var Firebase = require("firebase"),
     _ = require("underscore"),
-    debug = require("debug")("pach.in");
-    
+    debug = console.log;
+
 var pkg = require("./package.json"),
     db = new Firebase(process.env.FIREBASE).child(pkg.name.replace(".", "_"));
     

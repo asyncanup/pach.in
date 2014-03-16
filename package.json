@@ -4,7 +4,6 @@
   "dependencies": {
     "apper": "*",
     "firebase": "~1.0.10-2",
-    "underscore": "*",
-    "debug": "*"
+    "underscore": "*"
   }
 }

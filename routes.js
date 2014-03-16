@@ -27,7 +27,7 @@ module.exports = function (app) {
         } else {
             res.json({
                 success: false,
-                error: "Email already subscribed."
+                error: "You've already subscribed!"
             });
         }
     });
