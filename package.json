@@ -1,9 +1,0 @@
-{
-  "name": "pach.in",
-  "version": "1.0.0",
-  "dependencies": {
-    "firebase": "~1.0.10-2",
-    "underscore": "*",
-    "apper": "*"
-  }
-}
