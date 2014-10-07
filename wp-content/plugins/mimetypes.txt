@@ -1,0 +1,6 @@
+audio/ac3 ac3
+audio/MPA mpa
+video/x-flv flv
+application/postscript ai
+application/vnd.openxmlformats-officedocument.wordprocessingml.document docx
+application/msword doc

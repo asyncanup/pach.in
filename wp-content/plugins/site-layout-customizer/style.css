@@ -1,0 +1,549 @@
+/*Make sure you save the css file before updating the plugin. Updating the plugin will overwrite all files in the plugin folder!!!!  */
+
+
+/*title and excerpt can be set seperately for each layout*/
+#slc-title-layout1.c {
+  font-size: 26px;
+  color: #4F2991;
+  line-height: 115%;
+  font-weight: bold;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-excerpt-layout1.c {
+  font-size: 14px;
+  color: black;
+  line-height: 125%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-title-layout2.c {
+  font-size: 16px;
+  font-weight: 600;
+  color: #061157;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-excerpt-layout2.c {
+  font-size: 13px;
+  color: black;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-title-layout3.c {
+  font-size: 16px;
+  color: #4F2991;
+  font-weight: bold;
+  line-height: 125%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-excerpt-layout3.c {
+  font-size: 13px;
+  color: black;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-title-layout4.c {
+  font-size: 14px;
+  color: #4F2991;
+  font-weight: bold;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 4px 0px;
+}
+#slc-excerpt-layout4.c {
+  font-size: 11px;
+  color: black;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-title-layout5.c {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  line-height: 125%;
+  background:#565ACC;  
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding: 4px 5% 4px 5% ;
+  margin: 0px 0px 0px 0px;
+}
+#slc-excerpt-layout5.c {
+  font-size: 11px;
+  color: gray;
+  line-height: 110%;
+  text-transform: uppercase;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px  ;
+  margin: 2px 0px 6px 0px;
+}
+#slc-title-layout6.c {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4F2991;
+  line-height: 125%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 0px 0px;
+}
+#slc-excerpt-layout6.c {
+  font-size: 11px;
+  color: black;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-title-layout7.c {
+  font-size: 26px;
+  color: #4F2991;
+  line-height: 115%;
+  font-weight: bold;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-excerpt-layout7.c {
+  font-size: 14px;
+  color: black;
+  line-height: 125%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-title-layout8.c {
+  font-size: 34px;
+  color: #4F2991;
+  line-height: 115%;
+  font-weight: bold;
+
+  /*text-shadow: 3px 3px 3px #bbb;*/
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-excerpt-layout8.c {
+  font-size: 15px;
+  color: black;
+  line-height: 125%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px ;
+  margin: 0px 0px 6px 0px;
+}
+
+
+
+
+/*valid for all layouts*/
+#slc-background0.c {
+ background: #F0F1F5;  
+ 
+ border-width: 0px; 
+ vertical-align:top;  
+ /*colors: #F5F7FA #F0F1F5 #E6E8F2*/
+ padding:6px ;
+ margin: 0px;
+}
+#slc-background1.c {
+ border-width: 0px; 
+ vertical-align:top;  
+ /*colors: #F5F7FA #F0F1F5 #E6E8F2*/
+ padding:6px !important;
+ margin: 0px !important;
+ 
+ background: #E6E8F2;
+ 
+ border-radius: 4px;
+ box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+ background-image: linear-gradient(bottom, rgb(243,242,247) 0%, rgb(228,229,240) 57%) !important;
+ background-image: -o-linear-gradient(bottom, rgb(243,242,247) 0%, rgb(228,229,240) 57%) !important;
+ background-image: -moz-linear-gradient(bottom, rgb(243,242,247) 0%, rgb(228,229,240) 57%) !important;
+ background-image: -webkit-linear-gradient(bottom, rgb(243,242,247) 0%, rgb(228,229,240) 57%) !important;
+ background-image: -ms-linear-gradient(bottom, rgb(243,242,247) 0%, rgb(228,229,240) 57%) !important;
+}
+#slc-background2.c {
+ border-width: 0px; 
+ vertical-align:top;  
+ /*colors: #F5F7FA #F0F1F5 #E6E8F2*/
+ padding:6px !important;
+ margin: 0px !important;
+ 
+ background: #E6E8F2;
+ 
+ border-radius: 4px;
+ box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+ background-image: linear-gradient(bottom, rgb(228,240,247) 7%, rgb(206,220,245) 54%);
+ background-image: -o-linear-gradient(bottom, rgb(228,240,247) 7%, rgb(206,220,245) 54%);
+ background-image: -moz-linear-gradient(bottom, rgb(228,240,247) 7%, rgb(206,220,245) 54%);
+ background-image: -webkit-linear-gradient(bottom, rgb(228,240,247) 7%, rgb(206,220,245) 54%);
+ background-image: -ms-linear-gradient(bottom, rgb(228,240,247) 7%, rgb(206,220,245) 54%);
+}
+#slc-overimage.c {
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+  line-height: 110%;
+  text-align:left; 
+  text-transform: uppercase;
+
+  font-family:Arial, sans-serif, Geneva;
+  left: 0px ;
+  width:96%;
+  position:absolute;
+
+
+  /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); */
+
+  /*
+  border-radius: 0px 6px 6px 0px;
+  width:90%;
+  */
+  z-index:100;
+  top:4px ;
+
+  background-color: #ffffff;
+  padding: 2px 2% 2px 2%;
+
+  margin: 0px 0px 0px 0px;
+
+  opacity:0.7;
+  filter: alpha(opacity = 70);
+}
+#slc-categories.c {
+  font-size: 12px;
+  color: gray;
+  line-height: 110%;
+  
+  /*background-image:url('cat.jpg');*/
+  text-transform: uppercase;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px; 
+  margin: 0px 0px 6px 0px;
+}
+#slc-tags.c {
+  font-size: 11px;
+  color: #6C6FB8;
+  line-height: 110%;
+  text-transform: uppercase;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px; 
+  margin: 0px 0px 6px 0px;
+}
+#slc-author-date.c {
+  font-size: 11px;
+  color: gray;
+  line-height: 110%;
+  text-transform: uppercase;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px;
+  margin: 0px 0px 4px 0px;
+}
+#slc-author-bio.c {
+  font-size: 13px;
+  color: black;
+  line-height: 115%;
+  background:#F0F1F5;  
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:10px 10px 10px 10px  ;
+  margin: 0px 0px 6px 0px;
+}
+#slc-layouttitle.c {
+  font-size: 18px;
+  color: #BBB9C7;
+  line-height: 125%;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px  ;
+  margin: 10px 0px 6px 0px;
+}
+#slc-test.c {
+  font-size: 11px;
+  color: red;
+  line-height: 115%;
+
+  font-family:Arial, sans-serif, Geneva;
+  text-decoration:none;
+  text-indent:0px;
+  text-align:left; 
+  vertical-align:top; 
+
+  padding:0px 0px 0px 0px  ;
+  margin: 0px 0px 4px 0px;
+}
+#slc-img.c {
+  border: 0px ;
+  border-width:0px ;
+  border-style:none ;
+  position: relative;
+  no-repeat center;  ;
+  vertical-align:top; 
+
+  clear:none;
+
+  padding:0;  
+  margin: 0px 0px 4px 0px;
+  
+  outline: 0 !imprtant;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+
+
+
+
+
+
+
+#slc-embed-left.c {
+  border: 0px; 
+  float:left;
+  background:transparent !important;
+  padding:0px; 
+  margin: 0px 10px 2px 0px;
+}
+#slc-embed-right.c {
+  border: 0px; 
+  float:right;
+  background:transparent !important;
+  padding:0px; 
+  margin: 0px 0px 2px 10px;
+}
+#slc-clear.c {
+  border: 0px !important;
+  border-width:0px !important;
+  border-style:none !important;
+  position: relative!important;
+  no-repeat center !important; 
+  vertical-align:top !important; 
+  
+  background:transparent !important;
+
+  clear:none !important;
+  margin:0px !important;   
+  padding:0px !important;  
+  outline: 0 !imprtant;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+
+
+
+
+/*vertical space between posts*/
+#slc-vpostspace.c {
+  width: 100%;
+  align:left; 
+  vertical-align:top; 
+  border: 0px; 
+  max-width:100%; 
+  max-height:100%;
+  background:transparent !important;
+
+
+  padding:0px 0px 0px 0px ; 
+  margin: 0px 0px 8px 0px ;
+}
+/*horisontal space between posts*/
+#slc-hpostspace.c {
+  width:10px;
+  border-width: 0px; 
+  border: 0px; 
+  max-width:10px;
+  background:transparent !important;
+
+
+  padding:0px 0px 0px 0px; 
+  margin: 0px 0px 0px 0px;
+}
+/* vertical space between layouts*/
+#slc-layoutspace.c {
+  width:100%;
+  color: #E1E3E6;
+  color: gray !important;
+  padding:0px 0px 0px 0px;
+  margin: 7px 0px 16px 0px;
+}
+/*vertical space between elements*/
+#slc-velementspace.c {
+  width: 100%;
+  align:left; 
+  vertical-align:top; 
+  border: 0px; 
+  max-width:100%; 
+  max-height:100%;
+  background:transparent !important;
+
+  padding:0px 0px 0px 0px ; 
+  margin: 0px 0px 6px 0px ;
+}
+
+
+
+
+
+#slc-admin.c {
+border-width:5px;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  align:left; 
+  vertical-align:top; 
+  border-color:#FAFAFA;
+  border-style:solid;
+  border-width:1px;
+  max-width:100%; 
+  max-height:100%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  padding:10px ;
+
+  position: absolute;
+  left: 600px;
+
+  padding:0px 0px 0px 0px; 
+  margin: 0px 0px 8px 0px;
+}
+
+

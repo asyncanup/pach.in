@@ -1,0 +1,70 @@
+@font-face {
+  	font-family: 'AvenirCondensed';
+  	src: url('fonts/AvenirCondensedHand.ttf')  format('truetype');
+}
+@font-face {
+  	font-family: 'DKPisang';
+	src: url('fonts/DKPisang.otf') format('opentype');
+}
+
+body.login {
+    background: #FFFDE7;
+}
+
+#login h1 a {
+    background-image: url('../../uploads/2014/06/logo.png');
+    background-size: 237px 214px;
+    width: 237px;
+    height: 214px;
+    margin: 0 auto;
+}
+
+#login {
+    padding-top: 0;
+}
+
+#login .submit .button-primary {
+    font-family: DKPisang,'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+#login .social_connect_ui {
+    padding: 9px 0;
+    float: left;
+}
+#login .comment-form-social-connect,
+#login #reg_passmail,
+#login .forgetmenot,
+#login #backtoblog
+{
+    display: none;
+}
+#login #reg_passmail {
+    display: none;
+}
+
+#login #nav {
+    font-family: DKPisang,'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    padding: 0;
+}
+
+#login #nav:first-child {
+    font-weight: bold;
+}
+
+#login #nav a:nth-child(odd) {
+    color: #999999;
+    float: left;
+    font-weight: bold;
+}
+#login #nav a:nth-child(even) {
+    color: #999999;
+    float: right;
+}
+#login #nav {
+    color: #FFFDE7;
+}
+
+

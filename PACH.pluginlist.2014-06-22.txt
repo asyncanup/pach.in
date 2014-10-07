@@ -1,0 +1,47 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.1.2
+  https://marketpress.com/product/backwpup-pro/
+  Blog Name: PACH
+  Blog URL: http://www.pach.in
+  Generated on: 2014-06-22 22:32.53
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Akismet (v.3.0.0) from Automattic
+	http://akismet.com/
+BackWPup (v.3.1.2) from Inpsyde GmbH
+	https://marketpress.com/product/backwpup-pro/
+Custom Login (v.2.3.5) from Austin Passy
+	https://extendd.com/plugin/custom-login
+Custom Permalinks (v.0.7.19) from Michael Tyson
+	http://atastypixel.com/blog/wordpress/plugins/custom-permalinks/
+Hello Dolly (v.1.6) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+Increase Upload Max Filesize (v.1.0.2) from Smartest Themes
+	http://smartestthemes.com/downloads/increase-upload-max-filesize-wp-plugin/
+PJW Mime Config (v.1.00) from Peter Westwood
+	http://blog.ftwr.co.uk/wordpress/mime-config/
+Social Connect (v.1.1) from Rodrigo Primo
+	http://wordpress.org/extend/plugins/social-connect/
+Theme My Login (v.6.3.9) from Jeff Farthing
+	http://www.jfarthing.com/extend/wordpress-plugins/theme-my-login/
+WP-FileManager (v.1.4.0) from Anant Shrivastava, Johannes Ries
+	http://blog.anantshri.info/projects/wp-filemanager/
+
+Active plugins:
+------------------------------
+BackWPup
+PJW Mime Config
+Social Connect
+WP-FileManager
+
+Inactive plugins:
+------------------------------
+Akismet
+Custom Login
+Custom Permalinks
+Hello Dolly
+Increase Upload Max Filesize
+Theme My Login
